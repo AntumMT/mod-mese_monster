@@ -1,12 +1,14 @@
-## Mese Monster mod for [Minetest][]
+## Mese Monster mod for [Luanti (Minetest)](https://luanti.org/)
 
 
 ---
 ### **Description:**
 
-Mese Monster mod extracted from *[mobs_monster][]* @ [Git commit 1561ec1][ver.mobs_monster].
+Mese Monster mod extracted from *[mobs_monster][]*
 
-[b]Mob description:[/b]
+Latest update: [1561ec1 Git][ver.mobs_monster]
+
+__Mob description:__
 - These mobs are territorial and spawn below -20 and will fire mese shards at passers by, so best avoided. Will drop mese when killed.
 
 ---
@@ -14,17 +16,22 @@ Mese Monster mod extracted from *[mobs_monster][]* @ [Git commit 1561ec1][ver.mo
 
 - **Required:**
   - ***[mobs (mobs_redo)][mobs_redo]***
+  - ***[default]***
+- **Optional:**
+  - ***[intllib]***
+  - ***[asm_spawneggs]***
 
 
 ---
 ### **Licensing:**
 
-[MIT](license.txt)
+- code: [MIT](license.txt)
 
 
-[Minetest]: http://www.minetest.net/
+[asm_spawneggs]: https://content.luanti.org/packages/AntumDeluge/asm_spawneggs/
+[default]: https://github.com/minetest-game/default
+[intllib]: https://content.luanti.org/packages/kaeza/intllib/
+[mobs_monster]: https://content.luanti.org/packages/TenPlus1/mobs_monster/
+[mobs_redo]: https://content.luanti.org/packages/TenPlus1/mobs/
 
-[mobs_monster]: https://github.com/tenplus1/mobs_monster
-[mobs_redo]: https://forum.minetest.net/viewtopic.php?t=9917
-
-[ver.mobs_monster]: https://github.com/tenplus1/mobs_monster/tree/1561ec1
+[ver.mobs_monster]: https://codeberg.org/tenplus1/mobs_monster/src/commit/1561ec1
