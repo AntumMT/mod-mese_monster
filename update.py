@@ -72,6 +72,7 @@ def updateNamespace(target):
 	fin.close()
 
 	content = re.sub("\"mobs_monster:", "\"mobs:", content, flags=re.M)
+	content = re.sub(".register_craftitem\(\"mobs:", ".register_craftitem(\":mobs:", content, flags=re.M)
 
 	lines = content.split("\n")
 	for idx in reversed(range(len(lines))):
